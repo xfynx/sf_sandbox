@@ -1,0 +1,17 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Бложик
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    robots:       index, follow
+
+  stylesheets:    [bootstrap.css, bootstrap.min.css, bootstrap-theme.css]
+
+  javascripts:    [bootstrap.js]
+
+  has_layout:     on
+  layout:         layout  

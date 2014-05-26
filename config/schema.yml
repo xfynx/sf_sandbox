@@ -1,0 +1,14 @@
+propel:
+  blog_post:
+    id:           ~
+    title:        { type: varchar(255), required: true }
+    excerpt:      { type: longvarchar }
+    body:         { type: longvarchar }
+    created_at:   ~
+  blog_comment:
+    id:           ~
+    blog_post_id: ~
+    author:       { type: varchar(255) }
+    email:        { type: varchar(255) }
+    body:         { type: longvarchar }
+    created_at:   ~

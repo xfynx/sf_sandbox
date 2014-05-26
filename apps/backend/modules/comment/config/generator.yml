@@ -1,0 +1,21 @@
+generator:
+  class:              sfPropelAdminGenerator
+  param:
+    model_class:      BlogComment
+    theme:            default
+    
+    actions: ~
+    fields:  
+      author:
+        label: "автор"
+    list:
+      display:
+        - '=author'
+    filter:  ~
+    form:    
+      display:
+        'Test': [email]
+    edit:    
+      display:
+        'Test': [email]	  
+    new:     ~
